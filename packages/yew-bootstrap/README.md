@@ -62,7 +62,7 @@ There is currently no indication of which version of Bootstrap is targeted, howe
 - [ ] Breadcrumb
 - [x] Button ([component::Button])
 - [x] Button group ([component::ButtonGroup])
-- [ ] Card
+- [x] Card ([component::Card], [component::CardHeader], [component::CardBody], [component::CardFooter])
 - [ ] Carousel
 - [ ] Close button
 - [ ] Collapse

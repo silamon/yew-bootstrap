@@ -256,6 +256,16 @@ impl Component for Model {
                         <Button style={Color::Primary}>{"Primary"}</Button>
                         <Button style={Color::Secondary}>{"Secondary"}</Button>
                     </ButtonGroup>
+
+                    <h2>{"Card"}</h2>
+                    <Card style={Color::Success} class={"text-white"}>
+                        <CardHeader text={"Header"} />
+                        <CardBody>
+                            <h5 class="card-title">{"Success card title"}</h5>
+                            <p class="card-text">{"Some quick example text to build on the card title and make up the bulk of the card's content."}</p>
+                        </CardBody>
+                        <CardFooter text="Footer" />
+                    </Card>
                 </div>
                 <div id="helpers" class="p-3">
                     <h1>{"Vertical/Horizontal rule"}</h1>
