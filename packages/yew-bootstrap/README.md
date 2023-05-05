@@ -75,7 +75,7 @@ There is currently no indication of which version of Bootstrap is targeted, howe
 - [ ] Pagination
 - [ ] Placeholders
 - [ ] Popovers
-- [ ] Progress
+- [x] Progress ([component::ProgressBar], ([component::Progress]))
 - [ ] Scrollspy
 - [x] Spinner ([component::Spinner])
 - [ ] Toast

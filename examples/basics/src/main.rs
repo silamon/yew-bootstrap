@@ -256,6 +256,13 @@ impl Component for Model {
                         <Button style={Color::Primary}>{"Primary"}</Button>
                         <Button style={Color::Secondary}>{"Secondary"}</Button>
                     </ButtonGroup>
+
+                    <h1>{"Progress"}</h1>
+                    <Progress>
+                        <ProgressBar min_value=0 max_value=100 now_value=15 />
+                        <ProgressBar style={Color::Success} is_striped={true} min_value=0 max_value=100 now_value=30 />
+                        <ProgressBar style={Color::Info} is_striped={true} is_animated={true} min_value=0 max_value=100 now_value=20 />
+                    </Progress>
                 </div>
                 <div id="helpers" class="p-3">
                     <h1>{"Vertical/Horizontal rule"}</h1>
